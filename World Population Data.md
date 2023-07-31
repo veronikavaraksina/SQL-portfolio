@@ -3399,19 +3399,3 @@ from density_table;
 
 
 In this case we had to get rid of zero population countries, like Antarctica due to divison. We can see that the popuation density is rather low on Svalbard, Falkland Island and Greenland. Highest population to area of land ratio is in Macau, Monaco and Singapore. Hong Kong is forth.
-
-
-```python
-engine = create_engine('postgresql://postgres:Xufa4259!@localhost:5432/master')
-```
-
-
-```python
-from sqlalchemy import create_engine
-%load_ext sql
-```
-
-
-```python
-%sql postgresql://postgres:Xufa4259!@localhost:5432/master
-```
