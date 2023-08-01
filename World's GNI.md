@@ -1,18 +1,3 @@
-```python
-from sqlalchemy import create_engine
-%load_ext sql
-```
-
-
-```python
-%sql postgresql://postgres:Xufa4259!@localhost:5432/master
-```
-
-
-```python
-engine = create_engine('postgresql://postgres:Xufa4259!@localhost:5432/master')
-```
-
 # World GNI data
 
 This data is from World Bank website and consists of three years of GNI indicator among differeny countries.
