@@ -1,18 +1,3 @@
-```python
-from sqlalchemy import create_engine
-%load_ext sql
-```
-
-
-```python
-%sql postgresql://postgres:Xufa4259!@localhost:5432/master
-```
-
-
-```python
-engine = create_engine('postgresql://postgres:Xufa4259!@localhost:5432/master')
-```
-
 # Library Management Analysis
 
 This project was inspired by: https://github.com/AlexanderWong/Library-Management-System/blob/master/LibraryManagementSystemAndStoredProceduresFINAL.sql
